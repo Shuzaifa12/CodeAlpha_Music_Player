@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <main>
+        <!-- top div in which nav menu and search icon exists -->
+        <div class="top_div">
+            <!-- div for nav menu -->
+            <div>
+                <img src="./assets/navlines.png" alt="navlines loading">
+            </div>
+
+            <!-- div for search icon -->
+            <div>
+                <img src="./assets/searchicon.png" alt="searchicon loading">
+            </div>
+        </div>
+
+        <!-- recommended songs div -->
+        <div class="section1">
+            <!-- heading div -->
+             <div>
+                <h3>Recommended for you</h3>
+             </div>
+
+             <!-- songs div -->
+             <div class="rec_songs">
+                <!-- first song div: Jo tum mery ho -->
+                <a href="./playing/playing.html">
+                    <div class="firstsong">
+                        <!-- Image div -->
+                        <div class="imagediv">
+                            <img src="./assets/section1/jo tum mery ho.jpg" alt="">
+                        </div>
+                        <!-- song title div-->
+                        <div class="title">
+                            <h2>Jo Tum Mery Ho</h2>
+                        </div>
+                        <!-- Artist name div -->
+                        <div class="artist">
+                            <h4>Anuv Jain</h4>
+                        </div>
+
+                        <audio controls id="song" hidden>
+                            <source src="media/Jo Tum Mere Ho - Anuv Jain 128 Kbps.mp3" >
+                        </audio>
+                    </div>
+                </a>
+
+                <!-- second song div: Ajnabi -->
+                <a href="./playing/playing.html">
+                    <div class="secondsong">
+                        <!-- Image div -->
+                        <div class="imagediv">
+                            <img src="./assets/section1/ajnabi.jpg" alt="">
+                        </div>
+                        <!-- song title div-->
+                        <div class="title">
+                            <h2>Ajnabi</h2>
+                        </div>
+                        <!-- Artist name div -->
+                        <div class="artist">
+                            <h4>Udit Narayan</h4>
+                        </div>
+                        <audio controls id="song" hidden>
+                            <source src="media/Ae Ajnabi Dil Se 128 Kbps.mp3">
+                        </audio>
+                    </div>
+                </a>
+
+                <!-- third song div: Sajaniya -->
+                <a href="./playing/playing.html">
+                    <div class="thirdsong">
+                        <!-- Image div -->
+                        <div class="imagediv">
+                            <img src="./assets/section1/sajaniya.jpg" alt="">
+                        </div>
+                        <!-- song title div-->
+                        <div class="title">
+                            <h2>Sajaniya</h2>
+                        </div>
+                        <!-- Artist name div -->
+                        <div class="artist">
+                            <h4>Amit Trivedi</h4>
+                        </div>
+                        <audio controls id="song" hidden>
+                            <source src="media/Sajaniya(KoshalWorld.Com).mp3" >
+                        </audio>
+                    </div>
+                </a>
+
+                <!-- fourth song div: Ami JE Tomar -->
+                <a href="./playing/playing.html">
+                    <div class="fifthsong">
+                        <!-- Image div -->
+                        <div class="imagediv">
+                            <img src="./assets/section1/ami je tomar 3.0.jpg" alt="">
+                        </div>
+                        <!-- song title div-->
+                        <div class="title">
+                            <h2>Ami JE Tomar</h2>
+                        </div>
+                        <!-- Artist name div -->
+                        <div class="artist">
+                            <h4>Shreya Ghoshal</h4>
+                        </div>
+                        <audio controls id="song" hidden>
+                            <source src="media/Ami Je Tomar 3 Bhool Bhulaiyaa 3 128 Kbps.mp3" >
+                        </audio>
+                    </div>
+                </a>
+
+                <!-- fifth song div: Pushpa Pushpa -->
+                <a href="./playing/playing.html">
+                    <div class="sixthsong">
+                        <!-- Image div -->
+                        <div class="imagediv">
+                            <img src="./assets/section1/pushpa pushpa.jpg" alt="">
+                        </div>
+                        <!-- song title div-->
+                        <div class="title">
+                            <h2>Pushpa Pushpa</h2>
+                        </div>
+                        <!-- Artist name div -->
+                        <div class="artist">
+                            <h4>Mika Singh</h4>
+                        </div>
+                        <audio controls id="song" hidden>
+                            <source src="media/128-Pushpa Pushpa - Pushpa 2 The Rule 128 Kbps.mp3" >
+                        </audio>
+                    </div>
+                </a>
+
+             </div>
+        </div>
+
+        <!-- my playlist div -->
+        <div class="section2">
+            <!-- heading div -->
+             <div>
+                <h3>My Playlist</h3>
+             </div>
+
+             <!-- songs div -->
+             <div class="rec_songs">
+                <!-- first song div: Mery Mehboob -->
+                <a href="./playing/playing.html">
+                    <div class="firstsong">
+                        <!-- Image div -->
+                        <div class="imagediv">
+                            <img src="./assets/section2/mery mehboob.jpg" alt="">
+                        </div>
+                        <!-- song title div-->
+                        <div class="title">
+                            <h2>Mery Mehboob</h2>
+                        </div>
+                        <!-- Artist name div -->
+                        <div class="artist">
+                            <h4>Shilpa Rao</h4>
+                        </div>
+                        <audio controls id="song" hidden>
+                            <source src="media/128-Mere Mehboob - Vicky Vidya Ka Woh Wala Video 128 Kbps.mp3" >
+                        </audio>
+                    </div>
+                </a>
+
+                <!-- second song div: Re Maan -->
+                <a href="./playing/playing.html">
+                    <div class="secondsong">
+                        <!-- Image div -->
+                        <div class="imagediv">
+                            <img src="./assets/section2/re mann.jpg" alt="">
+                        </div>
+                        <!-- song title div-->
+                        <div class="title">
+                            <h2>Re Maan</h2>
+                        </div>
+                        <!-- Artist name div -->
+                        <div class="artist">
+                            <h4>Shreya Ghoshal</h4>
+                        </div>
+                        <audio controls id="song" hidden>
+                            <source src="media/128-Re Mann - Shreya Ghoshal 128 Kbps.mp3" >
+                        </audio>
+                    </div>
+                </a>
+
+                <!-- third song div: Teri Baaton Me Esa Uljha Jiya -->
+                <a href="./playing/playing.html">
+                    <div class="thirdsong">
+                        <!-- Image div -->
+                        <div class="imagediv">
+                            <img src="./assets/section2/teri baato me.jpg" alt="">
+                        </div>
+                        <!-- song title div-->
+                        <div class="title">
+                            <h2>Teri Baaton Me Esa Uljha Diya</h2>
+                        </div>
+                        <!-- Artist name div -->
+                        <div class="artist">
+                            <h4>Tanishk Bagchi</h4>
+                        </div>
+                        <audio controls id="song" hidden>
+                            <source src="media/128-Teri Baaton Mein Aisa Uljha Jiya Title Song - Teri Baaton Mein Aisa Uljha Jiya 128 Kbps.mp3" >
+                        </audio>
+                    </div>
+                </a>
+
+                <!-- fourth song div: Duur Na Karin -->
+                <a href="./playing/playing.html">
+                    <div class="fourthsong">
+                        <!-- Image div -->
+                        <div class="imagediv">
+                            <img src="./assets/section2/Duur Na Karin.jpg" alt="">
+                        </div>
+                        <!-- song title div-->
+                        <div class="title">
+                            <h2>Duur Na Karin</h2>
+                        </div>
+                        <!-- Artist name div -->
+                        <div class="artist">
+                            <h4>Nabil Shaukat</h4>
+                        </div>
+                        <audio controls id="song" hidden>
+                            <source src="media/128-Duur Na Karin - Khel Khel Mein 128 Kbps.mp3" >
+                        </audio>
+                    </div>
+                </a>
+
+                <!-- fifth song div: Malang -->
+                <a href="./playing/playing.html">
+                    <div class="fifthsong">
+                        <!-- Image div -->
+                        <div class="imagediv">
+                            <img src="./assets/section2/Malang.jpg" alt="">
+                        </div>
+                        <!-- song title div-->
+                        <div class="title">
+                            <h2>Malang</h2>
+                        </div>
+                        <!-- Artist name div -->
+                        <div class="artist">
+                            <h4>Aditya Chopra</h4>
+                        </div>
+                        <audio controls id="song" hidden>
+                            <source src="media/192-Malang (Title Track) - Malang - Unleash The Madness 192 Kbps.mp3" >
+                        </audio>
+                    </div>
+                </a>
+
+                <!-- sixth song div: Sajde -->
+                <a href="./playing/playing.html">
+                    <div class="sixthsong">
+                        <!-- Image div -->
+                        <div class="imagediv">
+                            <img src="./assets/section2/sajde.jpg" alt="">
+                        </div>
+                        <!-- song title div-->
+                        <div class="title">
+                            <h2>Sajde</h2>
+                        </div>
+                        <!-- Artist name div -->
+                        <div class="artist">
+                            <h4>Arijit Singh</h4>
+                        </div>
+                        <audio controls id="song" hidden>
+                            <source src="media/128-Sajde - Kill Dil 128 Kbps.mp3" >
+                        </audio>
+                    </div>
+                </a>
+
+             </div>
+        </div>
+
+    </main>
+
+    <script src="/script.js"></script>
+</body>
+</html>

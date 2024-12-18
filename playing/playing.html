@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playing</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <!-- top div in which back arrow and playing heading exist -->
+        <div class="top">
+        <a href="/index.html">
+            <div>
+                <img src="../assets/backarrow.png" alt="back arrow loading">
+            </div>
+        </a>
+        <div>
+            <h3>Playing</h3>
+        </div>
+        </div>
+
+        <!-- div in which song images display -->
+        <div class="middle">
+            <img src="" alt="">
+        </div>
+
+        <!-- div in which slider and button exists -->
+        <div class="lower">
+            <!-- slider input -->
+            <input type="range" value="0" id="progress">
+
+            <!-- button div -->
+             <div class="button_div">
+                <button onclick="changeSong()">
+                    <img src="/assets/backward.png" alt="backward arrow loading">
+                </button>
+
+                <button onclick="playpause()">
+                    <img src="/assets/pause.png" alt="pause button loading" id="ctrlicon">
+                </button>
+
+                <button onclick="changeSong()">
+                    <img src="/assets/foward.png" alt="forward arrow loading">
+                </button>
+             </div>
+        </div>
+        
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+</html>
